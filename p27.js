@@ -43,3 +43,11 @@ function isOdd(num)
 }
 let num=95;
 console.log(isOdd(num));
+
+//how to change a function to expession
+
+const firstChar=function(str)
+{
+    return str[0];
+}
+console.log(firstChar("javascript"));
