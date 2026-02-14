@@ -41,6 +41,7 @@ const userCart=[
 ]
 const total=userCart.reduce((totalPrice,currPrice)=>
 {
-  return totalPrice.price+currPrice.price;
+  return totalPrice+currPrice.price;
 },0);//0 is a initial value
+console.log(total);
 
