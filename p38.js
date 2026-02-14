@@ -39,9 +39,14 @@ const userCart=[
     {productId:2,productName:"Laptop",price:70000},
     {productId:3,productName:"Suitcase",price:5432},
 ]
-const total=userCart.reduce((totalPrice,currPrice)=>
+const totalAmount=userCart.reduce((totalPrice,currPrice)=>
 {
   return totalPrice+currPrice.price;
 },0);//0 is a initial value
-console.log(total);
+console.log(totalAmount);
+// Accumulator         CurrentPrice            return total
+//  0                        122000               122000
+//  122000                   70000                192000
+//  192000                   5432                 197432
+
 
