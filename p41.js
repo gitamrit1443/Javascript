@@ -12,4 +12,18 @@ const r=array.some((val)=>val%2!=0);
 if(!r) console.log("All the elements in an array are multiple of 2");
 else console.log("Element found to be odd in even series");
 
+//fill method
+function print(arr)
+{
+   for(let val of arr)
+   {
+    console.log(val);
+   }
+}
+const myArray=new Array(5).fill(20);
+print(myArray);
+myArray.fill(50,2,4);
+print(myArray);
+
+
 
