@@ -12,4 +12,6 @@ console.log(obj2.key1);//undefined here we want that js ensures that
 const obj3=Object.create(obj1);
 console.log(obj3);
 console.log(obj3.key2);
-console.log(obj2.__proto__);
+console.log(obj3.__proto__);
+console.log(obj3);
+// output for line 16 in console [[Prototype]]:Object
