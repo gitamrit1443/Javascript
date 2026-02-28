@@ -21,6 +21,7 @@ function printFullName(firstName,lastName)
     return printName;
 }
 const res=printFullName("Amritpal","Singh");
-res();
+res();//
 console.log(typeof(res));
+res=null;//toh destroy the closure and free up memory, we can set the variable to null. This will allow the garbage collector to reclaim the memory used by the closure.
 
