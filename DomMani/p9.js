@@ -5,4 +5,11 @@ h1Parent.style.color="#333";
 h1Parent.style.backgroundColor="aqua";
 h1Parent.style.fontWeight="bold";
 const body=h1Parent.parentNode;
-body.style.backgroundColor="aqua"
+body.style.backgroundColor="whitesmoke"
+const head=document.querySelector("head");
+console.log(head)
+const title=head.querySelector("title");
+console.log(title.childNodes);
+const container=document.querySelector(".container")
+
+

@@ -16,3 +16,6 @@ console.log(headElementNode.parentNode)
 console.log(headElementNode.nextSibling)//text
 console.log(headElementNode.nextSibling.nextSibling)//body
 console.log(headElementNode.childNodes)//displays all child node of head tag
+ console.log(`The previous siblings are:${headElementNode.previousSibling}`); //displaying previous sibling
+ console.dir(document)
+ console.log(headElementNode.nextElementSibling);
