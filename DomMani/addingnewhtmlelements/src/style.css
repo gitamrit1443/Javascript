@@ -12,3 +12,16 @@ body {
   display: grid;
   place-items: center;
 }
+.btn
+{
+  border:"solid" "red";
+  border-radius:6px;
+  padding:10px;
+  margin:8px;
+  background-color:"red";
+}
+.btn-headline
+{
+  background-color:"red";
+  color:blue;
+}
