@@ -1,4 +1,4 @@
-//Synchronus programming->(ek kaam khatam hoga tb hi dusre ko time milega but it will block futher code that can be completed just in less time)
+"//Synchronus programming->(ek kaam khatam hoga tb hi dusre ko time milega but it will block futher code that can be completed just in less time)
 // eg fetching  user from backend language it tae time while fetching in synchonus manner any button will not clicked till fetching will not done and page will not load)
 for(let i=0;i<100;i++)
   {

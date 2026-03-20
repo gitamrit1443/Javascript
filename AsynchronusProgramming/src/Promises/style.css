@@ -1,0 +1,7 @@
+body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+        .container { display: flex; gap: 20px; }
+        .box { flex: 1; padding: 15px; border-radius: 8px; color: white; }
+        .callback-box { background: #e74c3c; } /* Red for Danger/Doom */
+        .promise-box { background: #2ecc71; }  /* Green for Clean */
+        button { padding: 10px; cursor: pointer; margin-bottom: 10px; }
+        pre { background: #222; padding: 10px; border-radius: 5px; font-size: 12px; }

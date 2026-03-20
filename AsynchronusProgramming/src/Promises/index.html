@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promises vs Pyramid of Doom</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h2>JS Async Flow: Callback vs Promise</h2>
+    
+    <div class="container">
+        <div class="box callback-box">
+            <h3>Pyramid of Doom (Callbacks)</h3>
+            <button onclick="runCallbackHell()">Run Callback Hell</button>
+            <div id="callback-status">Status: Waiting...</div>
+        </div>
+
+        <div class="box promise-box">
+            <h3>Clean Code (Promises)</h3>
+            <button onclick="runPromises()">Run Promises</button>
+            <div id="promise-status">Status: Waiting...</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
